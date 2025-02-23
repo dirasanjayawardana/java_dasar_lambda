@@ -2,7 +2,7 @@ package dirapp.app;
 
 import dirapp.SimpleAction;
 
-public class SimpleActionApp {
+public class ASimpleActionApp {
     public static void main(String[] args) {
 
         // menggunakan anonymous class tanpa menggunakan lambda

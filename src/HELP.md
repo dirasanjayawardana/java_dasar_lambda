@@ -1,7 +1,7 @@
 # Lambda
-- Di java lambda merupakan representasi sederhana dari anonymous class yang memiliki satu method abstract (Functional Interface)
-- Pada bahasa pemrograman lain, lambda biasanya merupakan representasi dari anonymous function, namun di java, function tidak bisa berdiri sendiri, tetapi harus berada di dalam class
-- Jadi di java, lambda merupakan representasi dari sebuah anonymous class
+- Di java lambda merupakan representasi sederhana dari anonymous interface yang memiliki satu method abstract (Functional Interface)
+- Pada bahasa pemrograman lain, lambda biasanya merupakan representasi dari anonymous function, namun di java, function tidak bisa berdiri sendiri, tetapi harus berada di dalam class/interface
+- Jadi di java, lambda merupakan representasi dari sebuah anonymous interface
 
 ## Syarat Lambda
 - Berupa interface
