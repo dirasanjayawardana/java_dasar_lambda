@@ -2,7 +2,7 @@ package dirapp.app;
 
 import java.util.function.Predicate;
 
-public class PredicateApp {
+public class EPredicateApp {
     public static void main(String[] args) {
         
         // Predicate<TipeParameter> --> functional interface yang butuh parameter dan return methodnya boolean

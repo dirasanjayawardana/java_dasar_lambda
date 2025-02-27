@@ -2,7 +2,7 @@ package dirapp.app;
 
 import java.util.function.BiFunction;
 
-public class BiFunctionApp {
+public class DBiFunctionApp {
     public static void main(String[] args) {
 
         // BiFunction<Parameter1, Parameter2, TipeReturn> --> functional interface yang bisa menerima beberapa parameter dan mengembalikan data dari methodnya
