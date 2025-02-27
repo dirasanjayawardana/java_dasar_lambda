@@ -2,7 +2,7 @@ package dirapp.app;
 
 import java.util.function.Consumer;
 
-public class ConsumerApp {
+public class BConsumerApp {
     public static void main(String[] args) {
         
         // Consumer<TipeParameter> --> functional interface yang menerima parameter dan return methodnya void, contoh untuk forEach

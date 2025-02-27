@@ -2,7 +2,7 @@ package dirapp.app;
 
 import java.util.function.Function;
 
-public class FunctionApp {
+public class CFunctionApp {
     public static void main(String[] args) {
         
         // Function<TipeParameter, TipeReturn> --> functional interface yang menerima parameter dan mengembalikan data dari methodnya
