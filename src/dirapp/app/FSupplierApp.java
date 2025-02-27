@@ -2,7 +2,7 @@ package dirapp.app;
 
 import java.util.function.Supplier;
 
-public class SupplierApp {
+public class FSupplierApp {
     public static void main(String[] args) {
         
         // Supplier<TipeReturn> --> functional interface yang tidak menerima parameter tetapi mengembalikan data dari return methodnya
