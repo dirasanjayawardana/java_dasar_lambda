@@ -3,7 +3,7 @@ package dirapp.app;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ListForEachApp {
+public class HListForEachApp {
     public static void main(String[] args) {
         List<String> list = List.of("Dira", "Sanjaya", "Wardana");
 

@@ -3,7 +3,7 @@ package dirapp.app;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListRemoveIfApp {
+public class IListRemoveIfApp {
     public static void main(String[] args) {
 
         List<String> names = new ArrayList<>();
