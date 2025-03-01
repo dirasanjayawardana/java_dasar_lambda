@@ -8,7 +8,7 @@ import dirapp.util.StringUtil;
 public class GMethodReferenceApp {
     public static void main(String[] args) {
 
-        // ketika hanya ingin mengakses method yang ada di parameter lambda, bisa gunakan method reference, dengan catatan parameter method harus sama dengan parameter di Lambda, dan return methodnya harus sama dengan return Function nya ()
+        // ketika hanya ingin mengakses method yang ada di parameter lambda, bisa gunakan method reference, dengan catatan parameter method harus sama dengan parameter di Lambda, dan return methodnya harus sama dengan return Function nya (contoh Predicate return boolean)
 
         // Tanpa method reference
         // Predicate<String> predicateIsLowerCase = value -> StringUtil.isLowerCase(value);
