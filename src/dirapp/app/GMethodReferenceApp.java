@@ -5,10 +5,10 @@ import java.util.function.Predicate;
 
 import dirapp.util.StringUtil;
 
-public class MethodReferenceApp {
+public class GMethodReferenceApp {
     public static void main(String[] args) {
 
-        // ketika hanya ingin mengakses method yang ada di parameter lambda, bisa gunakan method reference, dengan catatan parameter method harus sama dengan parameter di Lambda
+        // ketika hanya ingin mengakses method yang ada di parameter lambda, bisa gunakan method reference, dengan catatan parameter method harus sama dengan parameter di Lambda, dan return methodnya harus sama dengan return Function nya ()
 
         // Tanpa method reference
         // Predicate<String> predicateIsLowerCase = value -> StringUtil.isLowerCase(value);
@@ -37,7 +37,7 @@ public class MethodReferenceApp {
 
     public void run2() {
         // menggunakan method reference ketika mengakses method yg bukan static pada object yang berbeda
-        MethodReferenceApp app = new MethodReferenceApp();
+        GMethodReferenceApp app = new GMethodReferenceApp();
 
         Predicate<String> predicateIsLowerCase = app::isLowerCase;
 
